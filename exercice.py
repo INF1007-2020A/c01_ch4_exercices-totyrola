@@ -3,8 +3,8 @@
 
 
 def is_even_len(string: str) -> bool:
-    word = " Bonjour!"
-    
+    is_even
+
     return 
 
 
