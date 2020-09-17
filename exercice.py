@@ -2,25 +2,28 @@
 # -*- coding: utf-8 -*-
 
 
-def is_even_len(string: str) -> bool
+from dataclasses import replace
 
-    return 
+def is_even_len(string: str) -> bool:
+    Test = len(string) % 2
+    return Test == 0
 
 
 def remove_third_char(string: str) -> str:
-    return ""
+    removed_letter = string[:2] + string[3:]
+    return removed_letter
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    return ""
+    return string.replace(old_char, new_char)
 
 
 def get_nb_char(string: str, char: str) -> int:
-    return 0
+    return string.count(char)
 
 
 def get_nb_words(sentence: str) -> int:
-    return 0
+    return len(sentence.split(" "))
 
 
 def main() -> None:
