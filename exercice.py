@@ -3,7 +3,7 @@
 
 
 def is_even_len(string: str) -> bool:
-    word = ""
+    word = "B"
     return 
 
 
