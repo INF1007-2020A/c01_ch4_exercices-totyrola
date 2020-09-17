@@ -23,7 +23,7 @@ Traceback (most recent call last):
   File "test_exercice.py", line 15, in <listcomp>
     output = [exercice.is_even_len(v) for v in values]
   File "/home/runner/work/c01_ch4_exercices-totyrola/c01_ch4_exercices-totyrola/exercice.py", line 6, in is_even_len
-    return print(is_even_len % 2 == 0)
+    is_even_len % 2 == 0
 TypeError: unsupported operand type(s) for %: 'function' and 'int'
 
 ======================================================================
