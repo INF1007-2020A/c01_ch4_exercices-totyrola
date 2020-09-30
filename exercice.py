@@ -5,8 +5,8 @@
 from dataclasses import replace
 
 def is_even_len(string: str) -> bool:
-    Test = len(string) % 2
-    return Test == 0
+    
+    return 
 
 
 def remove_third_char(string: str) -> str:
