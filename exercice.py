@@ -5,7 +5,7 @@
 from dataclasses import replace
 
 def is_even_len(string: str) -> bool:
-    len(string) 
+    len(string) %
     return 
 
 
