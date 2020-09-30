@@ -6,12 +6,12 @@ from dataclasses import replace
 
 def is_even_len(string: str) -> bool:
    nombre = len(string) % 2 == 0
-    return nombre 
+return nombre 
 
 
 def remove_third_char(string: str) -> str:
     removed_letter = string[ : 2] + string[3: ]
-    return 
+    return removed_letter
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
     return string.replace(old_char, new_char)
