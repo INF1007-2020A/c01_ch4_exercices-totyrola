@@ -22,8 +22,8 @@ def get_nb_char(string: str, char: str) -> int:
 
 
 def get_nb_words(sentence: str) -> int:
-    return sentence.count(" ") + 1
-    
+    return sentence.count(" ")
+
 
 
 def main() -> None:
