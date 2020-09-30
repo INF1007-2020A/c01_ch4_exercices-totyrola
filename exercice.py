@@ -14,7 +14,7 @@ def remove_third_char(string: str) -> str:
     return removed_letter
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    return replace()
+    return replace(old_char, new_)
 
 
 def get_nb_char(string: str, char: str) -> int:
